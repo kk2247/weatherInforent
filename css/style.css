@@ -1069,9 +1069,9 @@ Screen01 Section style
 .attr_rio,
 .attr_deg{
     position: absolute; 
-    width:55px;
-    height: 55px;
-    line-height: 55px;
+    width:100px;
+    height: 100px;
+    line-height: 100px;
     display: inline-block;
     border-radius: 50%;
 }
@@ -1107,7 +1107,7 @@ Screen01 Section style
     background-color: #fc6a42;
 }
 .attr_lon{ 
-    top:40%;
+    top:80%;
     right:0%;
     background-color: #4466c9;
 }
@@ -1307,4 +1307,12 @@ nav.navbar.bootsnav.footer-menu ul li a:hover{
 .scrollup:hover {
     background-color: blueviolet;
     color:#fff;
+}
+
+.loginout{
+	border:1px #fff solid;
+	width:50px;
+	height:30px;
+	margin-right:20px;
+	margin-top:16px;
 }

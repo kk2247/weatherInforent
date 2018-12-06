@@ -61,9 +61,8 @@
                     <!-- Start Atribute Navigation -->
                     <div class="attr-nav">
                         <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><button class="loginout"><img src="images/loginout.png" /></button></li>
+                            
                         </ul>
                     </div>        
                     <!-- End Atribute Navigation -->
@@ -76,7 +75,7 @@
                         </button>
                         <a class="navbar-brand" href="#brand">
                             <img src="images/logo.png" class="logo logo-display" alt="">
-                            <img src="images/footer-logo.png" class="logo logo-scrolled" alt="">
+                            <img src="images/footer-logo1.png" class="logo logo-scrolled" style="margin-top:0px" alt="">
                         </a>
 
                     </div>
@@ -86,9 +85,7 @@
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-center">
                             <li><a href="#home">Home</a></li>                    
-                            <li><a href="#features">Features</a></li>
-                            <li><a href="#reviews">Reviews</a></li>
-                            <li><a href="#download">Download</a></li>
+                            <li><a href="#features">Information</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>   
@@ -102,29 +99,26 @@
                         <div class="main_home">
                             <div class="col-md-6">
                                 <div class="home_text">
-                                    <h1 class="text-white">Get the most fun weather app</h1>
-                                </div>
-
-                                <div class="home_btns m-top-40">
-                                    <a href="https://bootstrapthemes.co" target="_blank" class="btn btn-danger m-top-20">Download</a>
-                                    <a href="" class="btn btn-primary m-top-20">Features</a>
+                                    <h1 class="text-white">today
+                                    	weather:</h1>
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="phone_one phone_attr1 text-center sm-m-top-50">
-                                    <div class="attr_deg">9&deg;</div>
-                                    <div class="attr_rio text-uppercase">Rio</div>
+                                    <div class="attr_deg" id="temperature">22&deg;</div>
+                                    
                                     <div class="attr_sun text-uppercase text-white">Sunny</div>
-                                    <div class="attr_lon text-uppercase text-white">London</div>
-                                    <img src="images/phone01.png" alt="" />
+                                    <div class="attr_lon text-uppercase text-white" id="city">London</div>
+                                    <img src="weatherImg/11.jpg" alt="" />
+                                    <!--<img src="images/phone01.png" alt="" />-->
                                 </div>
                             </div>
 
                         </div>
-                        <div class="scrooldown">
+                        <!--<div class="scrooldown">
                             <a href="#features"><i class="fa fa-chevron-down"></i></a>
-                        </div>
+                        </div>-->
 
                     </div><!--End off row-->
                 </div><!--End off container -->
@@ -133,7 +127,7 @@
 
 
             <!--Featured Section-->
-            <section id="features" class="features">
+            <!--<section id="features" class="features">
                 <div class="container">
                     <div class="row">
                         <div class="main_features p-top-100">
@@ -181,9 +175,10 @@
                                 </div>
                             </div>
                         </div>
-                    </div><!-- End off row -->
-                </div><!-- End off container -->
-            </section><!-- End off Featured Section-->
+                    </div>
+                </div>
+            </section>
+            -->
 
 
 
@@ -213,7 +208,7 @@
 
             <!--screen short section-->
 
-            <section id="screen_area" class="screen_area">
+            <!--<section id="screen_area" class="screen_area">
                 <div class="container">
                     <div class="row">
                         <div class="main_screen">
@@ -224,7 +219,6 @@
                                 </div>
                             </div>
 
-                            <!-- Screen01-->
                             <div class="screen01 roomy-50">
                                 <div class="col-md-6">
                                     <div class="screen01_img text-center">
@@ -250,9 +244,8 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div><!--End off Screen01-->
+                            </div>
 
-                            <!-- Screen02-->
                             <div class="screen02 roomy-50 m-top-100">
                                 <div class="col-md-6 col-md-push-6">
                                     <div class="screen02_img text-center">
@@ -278,9 +271,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div><!--End off Screen02-->
-
-                            <!-- Screen03-->
+                            </div>
                             <div class="screen03 roomy-50 m-top-100">
                                 <div class="col-md-6">
                                     <div class="screen03_img text-center">
@@ -307,17 +298,17 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div><!--End off Screen02-->
+                            </div>
 
 
                         </div>
-                    </div><!--End off row-->
-                </div><!--End off container-->
-            </section><!--End off Screen01 Area Section -->
+                    </div>
+                </div>
+            </section> -->
 
 
 
-            <!--People Section-->
+            <!--
             <section id="reviews" class="reviews m-top-100">
                 <div class="container">
                     <div class="row">
@@ -337,7 +328,7 @@
                                         <h5>John Updike</h5>
                                         <div class="reviews_item_icon1 pull-right text-right">“</div>
                                     </div>
-                                </div><!-- End off col-md-6 -->
+                                </div>
 
                                 <div class="col-md-6">
                                     <div class="reviews_item m-top-40">
@@ -347,7 +338,7 @@
                                         <h5>William Hazlitt</h5>
                                         <div class="reviews_item_icon1 pull-right text-right">“</div>
                                     </div>
-                                </div><!-- End off col-md-6 -->
+                                </div>
                                 <div class="col-md-6">
                                     <div class="reviews_item m-top-40">
                                         <div class="reviews_item_icon pull-left">“</div>
@@ -356,7 +347,7 @@
                                         <h5>Mignon McLaughlin</h5>
                                         <div class="reviews_item_icon1 pull-right text-right">“</div>
                                     </div>
-                                </div><!-- End off col-md-6 -->
+                                </div>
                                 <div class="col-md-6">
                                     <div class="reviews_item m-top-40">
                                         <div class="reviews_item_icon pull-left">“</div>
@@ -364,16 +355,16 @@
                                         <h5>Abraham Lincoln</h5>
                                         <div class="reviews_item_icon1 pull-right text-right">“</div>
                                     </div>
-                                </div><!-- End off col-md-6 -->
+                                </div>
 
                             </div>
-                        </div><!-- End off Main People -->
-                    </div><!-- End off row -->
-                </div><!-- End off container -->
-            </section><!-- End off People Section-->
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
-            <!--App Download Section-->
+            
             <section id="download" class="download m-top-100">
                 <div class="download_overlay"></div>
                 <div class="container">
@@ -400,7 +391,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>-->
 
             <!-- scroll up-->
             <div class="scrollup">
@@ -416,43 +407,25 @@
                                 <div class="container">  
 
                                     <!-- Start Atribute Navigation -->
-                                    <div class="attr-nav">
-                                        <ul>
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>        
+                                    	   
                                     <!-- End Atribute Navigation -->
 
 
                                     <!-- Start Header Navigation -->
                                     <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-footer">
-                                            <i class="fa fa-bars"></i>
-                                        </button>
-                                        <a class="navbar-brand" href="#brand"><img src="images/footer-logo.png" class="logo" alt=""></a>
+                                        <a class="navbar-brand" href="#brand"><img src="images/footer-logo1.png" class="logo" alt=""></a>
                                     </div>
                                     <!-- End Header Navigation -->
 
                                     <!-- navbar menu -->
-                                    <div class="collapse navbar-collapse" id="navbar-footer">
-                                        <ul class="nav navbar-nav navbar-center">
-                                            <li><a href="#home">Home</a></li>                    
-                                            <li><a href="#features">Features</a></li>
-                                            <li><a href="#reviews">Reviews</a></li>
-                                            <li><a href="#download">Download</a></li>
-                                        </ul>
-                                    </div><!-- /.navbar-collapse -->
+                                    
                                 </div>   
                             </nav>
                         </div>
                         <div class="divider"></div>
                         <div class="col-md-12">
                             <div class="main_footer text-center p-top-40 p-bottom-30">
-                                <p class="wow fadeInRight" data-wow-duration="1s">
-                                    More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>2016. All Rights Reserved
-                                </p>
+                                
                             </div>
                         </div>
                     </div>

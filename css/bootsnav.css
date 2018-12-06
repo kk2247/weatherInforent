@@ -1359,7 +1359,8 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav.navbar-fixed .logo-scrolled{
-        display: block !important;
+	display: block !important;
+	padding-bottom: 20px;
     }
 
     nav.navbar.bootsnav.navbar-fixed .logo-display{
